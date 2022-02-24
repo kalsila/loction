@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgba(216, 163, 16, 0.452);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px 100px / 120px;
+}
+.tt{
+    font-size: x-large;
+    color: rgb(31, 13, 16);
+}
+body{
+    background-color: cornflowerblue;
+
+}
+.haut{
+    font-style: oblique;
+    font-size: xx-large;
+}
+.yorty{
+    font-size: larger;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+footer{
+    background-color: gray;
+}
+@media screen and (max-width: 610px) {
+    .navbar{
+        background-color: rgba(122, 113, 113, 0.5);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

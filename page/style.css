@@ -1,0 +1,103 @@
+form{
+    border: solid black 2px;
+    width: 50%;
+    padding: auto;
+    font-size: x-large;
+    color: white;
+}
+body{
+    margin-left: 50%;
+    background-image: url(clef.jpg) ;
+   
+  background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+textarea{
+
+    width: 98% !important;
+
+}
+
+
+
+@media screen and (max-width:380px){
+
+
+    form{
+        border: solid black 2px;
+       color: white;
+        padding: 20px;
+        font-size:20px;
+        width: 100%;
+    }
+    
+
+    body{
+        margin-left: 50px;
+        background-image: url(clef.jpg) ;
+        background-repeat: repeat;
+       
+        background-attachment: fixed;
+        background-size: 100%;
+
+        margin-right: 50%;
+    
+    }
+    
+}
+
+
+@media screen and (max-width:450px){
+
+
+    form{
+        border: solid black 2px;
+       color: white;
+        padding: 20px;
+        font-size:20px;
+        width: 100%;
+    }
+    
+
+    body{
+        margin-left: 50px;
+        background-image: url(clef.jpg) ;
+        background-repeat: repeat;
+      
+        background-attachment: fixed;
+        background-size: 200%;
+
+        margin-right: 50%;
+    
+    }
+    
+}
+
+@media screen and (max-width:300px){
+
+
+    form{
+        border: solid black 2px;
+       color: white;
+        padding: 50px;
+        font-size:20px;
+        width: 100%;
+     
+    }
+    
+
+    body{
+        margin-left: 50px;
+        background-image: url(clef.jpg) ;
+        
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+
+        margin-right: 50%;
+    
+    }
+    
+}
